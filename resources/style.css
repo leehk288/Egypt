@@ -47,6 +47,7 @@ header nav {
     height: 110px;
     background-color: white;
     position: fixed;
+    float: top;
     top: 0px;
     z-index: 1px;
    }
@@ -149,8 +150,7 @@ main {
 }
 
 p {
-  position: relative;
-  left: 25px;
+  margin-left: 25px;
   width: 95%;
   font-family: 'Open Sans', sans-serif;
   font-size: 19px;
